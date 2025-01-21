@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    if(a&0X80000)
+    if(a&0X8000)
     {
         printf("Set");
     }

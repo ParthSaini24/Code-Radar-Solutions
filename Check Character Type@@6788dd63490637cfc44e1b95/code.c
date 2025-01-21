@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     char a;
     scanf("%c",&a);
-    a.lower()
+    a.lower();
     if((a>='a') && (a<='z'))
     {
         if((a=='a') || (a=='e') || (a=='i') || (a=='o') || (a=='u'))

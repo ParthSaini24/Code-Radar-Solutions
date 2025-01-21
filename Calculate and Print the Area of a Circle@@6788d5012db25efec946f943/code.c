@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    double r;
+    float r;
     float pi=3.14,area;
     scanf("%f",&r);
     area=pi*r*r;

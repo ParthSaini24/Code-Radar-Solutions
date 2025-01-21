@@ -7,7 +7,6 @@ char* welcome() {
 int main() {
     char a;
     scanf("%c",&a);
-    a.lower();
     if((a>='a') && (a<='z'))
     {
         if((a=='a') || (a=='e') || (a=='i') || (a=='o') || (a=='u'))
@@ -19,7 +18,7 @@ int main() {
             printf("Consonant");
         }
     }
-    else if((a>=0) && (a<=9))
+    else if((a>='0') && (a<='9'))
     {
         printf("Digit");
     }

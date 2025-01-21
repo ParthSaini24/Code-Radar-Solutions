@@ -6,8 +6,9 @@ char* welcome() {
 
 int main() {
     int r;
-    float pi=3.14;
+    float pi=3.14,area;
     scanf("%d",&r);
-    print("Area: %0.2f",pi*r*r);
+    area=pi*r*r;
+    print("Area: %0.2f",area);
     return 0;
 }

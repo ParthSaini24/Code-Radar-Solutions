@@ -11,7 +11,7 @@ int main() {
     {
         printf("Lowercase");
     }
-    else
+    else if((a>='A') && (a<='Z'))
     {
         printf("Uppercase");
     }

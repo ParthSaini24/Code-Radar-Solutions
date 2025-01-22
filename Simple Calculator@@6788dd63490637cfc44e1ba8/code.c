@@ -10,19 +10,19 @@ int main() {
     scanf("%d %d %c",&a,&b,&op);
     if(op=='+')
     {
-        printf(a+b);
+        printf("%d",a+b);
     }
     else if(op=='-')
     {
-        printf(a-b);
+        printf("%d",a-b);
     }
     else if(op=='*')
     {
-        printf(a*b);
+        printf("%d",a*b);
     }
     else if(op=='/')
     {
-        printf(a/b);
+        printf("%d",a/b);
     }
     else
     {

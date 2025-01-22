@@ -3,25 +3,23 @@ int main() {
     int a,b;
     char op;
     scanf("%d %d %c",&a,&b,&op);
-    if(op=='+')
-    {
-        printf("%d",a+b);
-    }
-    else if(op=='-')
-    {
-        printf("%d",a-b);
-    }
-    else if(op=='*')
-    {
-        printf("%d",a*b);
-    }
-    else if(op=='/')
-    {
-        printf("%d",a/b);
-    }
-    else
-    {
-        printf("Error");
+    match(op){
+        case '+'
+        {
+            printf("%d",a+b);
+        }
+        case '-'
+        {
+            printf("%d",a-b);
+        }
+        case '*'
+        {
+            printf("%d",a*b);
+        }
+        case '/'
+        {
+            printf("%f",a/b);
+        }
     }
     return 0;
 }

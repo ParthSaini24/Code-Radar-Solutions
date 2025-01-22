@@ -11,7 +11,7 @@ int main() {
     {
         if(a%i==0)
         {
-            count+=1
+            count+=1;
         }
     }
     if(count==2)

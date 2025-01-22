@@ -5,19 +5,19 @@ int main() {
     scanf("%d %d %c",&a,&b,&op);
     match(op);
     {
-        case '+'
+        case '+':
         {
             printf("%d",a+b);
         }
-        case '-'
+        case '-':
         {
             printf("%d",a-b);
         }
-        case '*'
+        case '*':
         {
             printf("%d",a*b);
         }
-        case '/'
+        case '/':
         {
             printf("%f",a/b);
         }

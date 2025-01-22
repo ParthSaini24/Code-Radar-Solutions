@@ -3,7 +3,8 @@ int main() {
     int a,b;
     char op;
     scanf("%d %d %c",&a,&b,&op);
-    match(op){
+    match(op)
+    {
         case '+'
         {
             printf("%d",a+b);

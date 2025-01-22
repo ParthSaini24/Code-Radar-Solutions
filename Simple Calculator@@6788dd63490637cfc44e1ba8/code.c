@@ -24,5 +24,9 @@ int main() {
     {
         printf(a/b);
     }
+    else
+    {
+        printf("Error");
+    }
     return 0;
 }

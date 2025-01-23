@@ -9,9 +9,9 @@ int main() {
     scanf("%d",&a);
     for(i=1;i<=a;i++)
     {
-        for(j=1;j<=i+2;j+=2)
+        for(j=1;j<=i;j+=2)
         {
-            printf(" * ");
+            printf("*");
         }
         printf("\n");
     }

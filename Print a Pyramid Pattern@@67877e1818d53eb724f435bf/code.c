@@ -7,15 +7,13 @@ char* welcome() {
 int main() {
     int n,i,j,k;
     scanf("%d",&n);
-    k=n*2;
-    for(i=0;i<n;i++)
+    for(i=1;i<=n;i++)
     {
-        for(j=0;j<k;j++)
+        for(j=1;j<=n-i;j++)
         {
             printf(" ");
         }
-        k=k-2;
-        for(j=0;j<=i;j++)
+        for(k=1;k<=(2*i-1);k++)
         {
             printf("*");
         }

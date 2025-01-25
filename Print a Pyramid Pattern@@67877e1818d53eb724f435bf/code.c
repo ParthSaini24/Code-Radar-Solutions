@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int n,i,j,k;
-    scanf("%d",&a);
+    scanf("%d",&n);
     k=n*2;
     for(i=0;i<n;i++)
     {

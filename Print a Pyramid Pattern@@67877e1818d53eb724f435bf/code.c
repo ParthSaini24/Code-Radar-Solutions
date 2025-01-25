@@ -5,10 +5,10 @@ char* welcome() {
 }
 
 int main() {
-    int a,i,j,k;
+    int n,i,j,k;
     scanf("%d",&a);
-    k=a*2;
-    for(i=0;i<a;i++)
+    k=n*2;
+    for(i=0;i<n;i++)
     {
         for(j=0;j<k;j++)
         {
@@ -19,7 +19,7 @@ int main() {
         {
             printf(" * ");
         }
-        printf(" ");
+        printf("\n");
     }
     return 0;
 }

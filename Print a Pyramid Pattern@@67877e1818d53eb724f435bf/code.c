@@ -7,17 +7,18 @@ char* welcome() {
 int main() {
     int a,i,j,k;
     scanf("%d",&a);
-    for(i=1;i<=a;i++)
+    k=a*2;
+    for(i=0;i<a;i++)
     {
-        for(k=1;k<=a-i;k++)
+        for(j=0;j<k;j++)
         {
-            printf("");
+            printf(" ");
         }
-        for(j=1;j<=(2*i-1);j++)
+        k=k-2;
+        for(j=0;j<=i;j++)
         {
-            printf("*");
+            printf("*\n");
         }
-        printf("\n");
     }
     return 0;
 }

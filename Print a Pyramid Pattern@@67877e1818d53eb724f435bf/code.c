@@ -17,8 +17,9 @@ int main() {
         k=k-2;
         for(j=0;j<=i;j++)
         {
-            printf("*\n");
+            printf(" * ");
         }
+        printf(" ");
     }
     return 0;
 }

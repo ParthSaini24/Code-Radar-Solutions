@@ -4,19 +4,19 @@ int main() {
     scanf("%c",&a);
     if(a=='R' || a=='r')
     {
-        printf("Stop");
+        printf("Stop\n");
     }
     else if(a=='G' || a=='g');
     {
-        printf("Go");
+        printf("Go\n");
     }
     else if(a=='Y' || a=='y')
     {
-        printf("Slow Down");
+        printf("Slow Down\n");
     }
     else
     {
-        printf("Invalid input");
+        printf("Invalid input\n");
     }
     return 0;
 }

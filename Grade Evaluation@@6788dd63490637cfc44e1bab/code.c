@@ -7,23 +7,23 @@ char* welcome() {
 int main() {
     char a;
     scanf("%c",&a);
-    if(a=='A')
+    if(a=='A' || a=='a')
     {
         printf("Excellent");
     }
-    else if(a=='B')
+    else if(a=='B' || a=='b')
     {
         printf("Good");
     }
-    else if(a=='C')
+    else if(a=='C' || a=='c')
     {
         printf("Average");
     }
-    else if(a=='D')
+    else if(a=='D' || a=='d')
     {
         printf("Below Average");
     }
-    else if(a=='F')
+    else if(a=='F' || a=='f')
     {
         printf("Fail");
     }

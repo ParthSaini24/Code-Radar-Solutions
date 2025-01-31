@@ -5,15 +5,15 @@ int main() {
     scanf("%d %d %c",&a,&b,&op);
     if(op=='+')
     {
-        printf("%d",a+b);
+        printf("%d\n",a+b);
     }
     else if(op=='-')
     {
-        printf("%d",a-b);
+        printf("%d\n",a-b);
     }
     else if(op=='*')
     {
-        printf("%d",a*b);
+        printf("%d\n",a*b);
     }
     else if(op=='/')
     {
@@ -23,7 +23,7 @@ int main() {
         }
         else
         {
-            printf("%d",a/b);
+            printf("%d\n",a/b);
         }
     }
     else

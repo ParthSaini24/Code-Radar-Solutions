@@ -19,7 +19,7 @@ int main() {
     {
         if(b==0)
         {
-            printf("Error");
+            printf("Error\n");
         }
         else
         {
@@ -28,7 +28,7 @@ int main() {
     }
     else
     {
-        printf("Error");
+        printf("Error\n");
     }
     return 0;
 }

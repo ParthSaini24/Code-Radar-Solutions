@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a,i,j;
     scanf("%d",&a);
-    for(i='A';i<='A'+a;i++)
+    for(i='A';i<='A'+a-1;i++)
     {
         for(j='A';j<=i;j++)
         {

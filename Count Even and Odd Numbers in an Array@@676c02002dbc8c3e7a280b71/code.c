@@ -5,12 +5,13 @@ char* welcome() {
 }
 
 int main() {
-    int a,i,even=0,odd=0;
+    int a,b,i,even=0,odd=0;
     scanf("%d\n",&a);
     int arr[a];
     for(i=1;i<=a;i++)
     {
-        scanf("%d",arr[i]);
+        scanf("%d",&b);
+        arr[i]=b;
         if(arr[i]%2==0)
         {
             even+=1;

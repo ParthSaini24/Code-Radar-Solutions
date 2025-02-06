@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char str1[100],str2[50];
+    char str1[1000],str2[500];
     fgets(str1,sizeof(str1),stdin);
     fgets(str2,sizeof(str2),stdin);
     strcat(str1,str2);

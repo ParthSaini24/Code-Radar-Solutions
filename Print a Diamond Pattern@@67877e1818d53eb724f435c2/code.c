@@ -1,10 +1,15 @@
 #include <stdio.h>
+
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
 int main() {
-    int a,i,j,k;
-    scanf("%d",&a);
-    for(i=1;i<=a;i++)
+    int n,i,j,k;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
     {
-        for(j=1;j<=a-i;i++)
+        for(j=1;j<=n-i;j++)
         {
             printf(" ");
         }

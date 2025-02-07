@@ -6,7 +6,7 @@ int main() {
     scanf("%s",str);
     for(i=0;i<(strlen(str));i++)
     {
-        if(str[i]==' ')
+        if(str[i]=='')
         {
             count+=1;
         }

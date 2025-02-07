@@ -7,7 +7,11 @@ char* welcome() {
 int main() {
     char str[200];
     scanf("%s",str);
-    int l=strlen(str);
-    printf("%d",l);
+    int i=0;
+    while(str[i]!='\0')
+    {
+        i+=1;
+    }
+    printf("%d",i);
     return 0;
 }

@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     char str[100],a,b;
-    scanf("%s \n %c \n %c",str,&a,&b);
+    scanf("%s %c %c",str,&a,&b);
     for(int i=0;i<strlen(str);i++)
     {
         if(str[i]==a)

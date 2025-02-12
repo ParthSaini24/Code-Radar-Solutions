@@ -7,7 +7,7 @@ int main() {
     char str[200];
     scanf("%s",str);
     int i=0;
-    while(str[i]!='\n')
+    while(str[i]!='\-1')
     {
         i+=1;
     }

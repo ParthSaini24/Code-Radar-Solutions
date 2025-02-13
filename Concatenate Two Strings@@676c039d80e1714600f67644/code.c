@@ -6,8 +6,8 @@ char* welcome() {
 
 int main() {
     char str1[1000],str2[1000];
-    fgets(str1, sizeof(str1), stdin);
-    fgets(str2, sizeof(str2), stdin);
+    scanf("%[^\n]%*c", str1);
+    scanf("%[^\n]%*c", str2);
     strcat(str1,str2);
     printf("%s",str1);
     return 0;

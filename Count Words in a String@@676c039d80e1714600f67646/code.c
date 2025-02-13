@@ -3,7 +3,7 @@
 int main() {
     char str[200];
     int count=0;
-    scanf("%s",str);
+    fgets(str,sizeof(str),stdin);
     for(int i=0;i<(strlen(str));i++)
     {
         if(str[i]=='\0')

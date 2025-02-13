@@ -5,7 +5,7 @@ char* welcome() {
 
 int main() {
     char str[200];
-    scanf("%s",str);
+    fgets(str, sizeof(str), stdin);
     int i=0;
     while(str[i]!='\0')
     {

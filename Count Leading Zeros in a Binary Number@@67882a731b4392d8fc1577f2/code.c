@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     unsigned int a;
     int n=0;
-    scanf("%d",&a);
+    scanf("%u",&a);
     for(int i=31;i>=0;i--)
     {
         if((num>>i)&1)

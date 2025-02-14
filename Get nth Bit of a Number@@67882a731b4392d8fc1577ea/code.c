@@ -7,6 +7,7 @@ char* welcome() {
 int main() {
     int a,n;
     scanf("%d %d",&a,&n);
-    printf("%d\n",(a>>n)&1);
+    a=(a<<n)&0;
+    printf("%d\n",a);
     return 0;
 }

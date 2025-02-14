@@ -11,9 +11,7 @@ int main() {
     for(int i=31;i>=0;i--)
     {
         if((a>>i)&1)
-        {
             break;
-        }
         n++;
     }
     printf("%d\n",n);

@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    unsigned int a;
+    int a;
     int n=0;
-    scanf("%u",&a);
+    scanf("%d",&a);
     for(int i=31;i>=0;i--)
     {
         if((a>>i)&1)

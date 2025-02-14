@@ -10,9 +10,11 @@ int main() {
     scanf("%d",&a);
     for(int i=31;i>=0;i--)
     {
-        if((num>>i)&1){
+        if((num>>i)&1)
+        {
             break;
-        n++;}
+            n++;
+        }
     }
     printf("%d\n",n);
     return 0;

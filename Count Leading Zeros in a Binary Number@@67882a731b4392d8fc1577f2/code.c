@@ -13,8 +13,8 @@ int main() {
         if((num>>i)&1)
         {
             break;
-            n++;
         }
+        n++;
     }
     printf("%d\n",n);
     return 0;

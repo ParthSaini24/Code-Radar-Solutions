@@ -1,13 +1,5 @@
 int printPrimesInRange(int x,int y)
 {
-    if(x==y)
-    {
-        printf("No prime numbers");
-    }
-    else if(x<2)
-    {
-        x=2;
-    }
     for(int i=x;i<=y;i++)
     {
         int count=0;

@@ -2,7 +2,7 @@
 
 int findFirstPeak(int arr[], int n) {
     if (n == 0) {
-        return 0;
+        return -1;
     }
 
     if (n == 1) {
@@ -19,7 +19,7 @@ int findFirstPeak(int arr[], int n) {
         }
     }
 
-    return 0;
+    return -1;
 }
 
 int main() {

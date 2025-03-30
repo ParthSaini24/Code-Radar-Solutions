@@ -23,7 +23,7 @@ int main()
     {
         scanf("%d ",arr[i]);
     }
-    sort(arr[i],n);
-    display(arr[i],n);
+    sort(arr[100],n);
+    display(arr[100],n);
     return 0;
 }

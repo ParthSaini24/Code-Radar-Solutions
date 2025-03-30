@@ -28,6 +28,10 @@ int main()
     {
         printf("-1");
     }
+    else if(arr[n-1]==arr[0])
+    {
+        printf("-1");
+    }
     else
     {
         printf("%d ",arr[n-2]);

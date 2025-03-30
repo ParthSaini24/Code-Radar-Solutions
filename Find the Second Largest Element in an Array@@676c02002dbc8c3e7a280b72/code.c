@@ -23,6 +23,10 @@ int main()
         scanf("%d ",&arr[i]);
     }
     sort(arr,n);
+    if(n==1)
+    {
+        printf("-1");
+    }
     printf("%d ",arr[n-2]);
     return 0;
 }

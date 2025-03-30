@@ -12,11 +12,11 @@ int sort(int arr[],int n)
 }
 int main()
 {
-    int arr1[],n;
+    int arr1[100],n;
     scanf("%d",&n);
     for(int i=1;i<=n;i++)
     {
         scanf("%d",arr1[i]);
     }
-    sort(arr1[n],n);
+    sort(arr1[100],n);
 }

@@ -21,5 +21,6 @@ int main()
         scanf("%d",&arr[i]);
     }
     scanf("%d",&target);
-    printf("%d",findIndex(arr,n,target));
+    int index=findIndex(arr,n,target);
+    printf("%d",index);
 }

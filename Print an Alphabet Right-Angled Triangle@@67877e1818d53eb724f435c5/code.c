@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int i,j,a;
-    scanf("%d",&a);
-    for(i='A';i<='A'+a-1;i++)
+    int i,j,n;
+    scanf("%d",&n);
+    for(i='A';i<='A'+n-1;i++)
     {
         for(j='A';j<=i;j++)
         {

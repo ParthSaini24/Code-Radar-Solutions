@@ -20,6 +20,6 @@ int main()
         scanf("%d ",arr[i]);
     }
     sort(arr[100],n);
-    printf("%d %d",arr[0],arr[n]);
+    printf("%d %d",arr[0],arr[n-1]);
     return 0;
 }

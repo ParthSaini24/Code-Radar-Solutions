@@ -6,7 +6,6 @@ int sort(int arr[],int n)
         if(arr[i]>arr[i+1])
         {
             printf("Not Sorted");
-            return;
         }
     }
     printf("Sorted");

@@ -7,10 +7,10 @@ int findIndex(int arr[],int n,int target)
         {
             return i;
         }
-        else{
+    }
+    else{
             return -1;
         }
-    }
 }
 int main()
 {

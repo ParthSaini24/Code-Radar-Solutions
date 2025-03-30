@@ -4,7 +4,7 @@ int printPrimesInRange(int x,int y)
     {
         for(int j=2;j<i;j++)
         {
-            int count=0
+            int count=0;
             if(i%j==0)
             {
                 count+=1;

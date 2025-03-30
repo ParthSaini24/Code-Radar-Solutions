@@ -20,5 +20,5 @@ int main()
         scanf("%d",&arr[i]);
     }
     scanf("%d",&target);
-    findIndex(arr,n,target);
+    printf("%d",findIndex(arr,n,target));
 }

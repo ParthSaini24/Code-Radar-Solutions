@@ -4,9 +4,10 @@ int printPrimesInRange(int x,int y)
     {
         for(int j=2;j<i;j++)
         {
+            count=0
             if(i%j==0)
             {
-                printf("%d ",i);
+                count+=1;
             }
         }
     }

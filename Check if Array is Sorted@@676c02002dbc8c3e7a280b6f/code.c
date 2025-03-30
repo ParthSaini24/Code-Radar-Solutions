@@ -2,15 +2,13 @@ int sort(int arr[],int n)
 {
     for(int i=0;i<n-1;i++)
     {
-        if(arr[i]<arr[i+1])
-        {
-            printf("Sorted");
-        }
-        else
+        if(arr[i]>arr[i+1])
         {
             printf("Not Sorted");
+            return;
         }
     }
+    printf("Sorted");
 }
 int main()
 {

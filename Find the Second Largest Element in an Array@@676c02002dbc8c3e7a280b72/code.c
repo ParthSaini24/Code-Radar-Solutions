@@ -24,10 +24,18 @@ int main()
         scanf("%d ",&arr[i]);
     }
     sort(arr,n);
+    for(int i=0;i<n;i++)
+    {
+        if(arr[0]==arr[1] && arr[1]==arr[2])
+        {
+            printf("-1");
+        }
+    }
     if(n==1)
     {
         printf("-1");
     }
+    
     else
     {
         printf("%d ",arr[n-2]);

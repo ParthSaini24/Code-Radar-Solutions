@@ -11,10 +11,6 @@ int sort(int arr[],int n)
         }
     }
 }
-int display(int arr[],int n)
-{
-    printf("%d %d ",arr[0],arr[n]);
-}
 int main()
 {
     int arr[100],n;
@@ -24,6 +20,6 @@ int main()
         scanf("%d ",arr[i]);
     }
     sort(arr[100],n);
-    display(arr[100],n);
+    printf("%d %d",arr[0],arr[n]);
     return 0;
 }

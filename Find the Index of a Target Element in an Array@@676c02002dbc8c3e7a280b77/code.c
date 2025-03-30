@@ -8,10 +8,7 @@ int findIndex(int arr[],int n,int target)
             return i;
         }
     }
-    else
-    {
-        return -1;
-    }
+    return -1;
 }
 int main()
 {

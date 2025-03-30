@@ -1,5 +1,5 @@
 #include<stdio.h>
-int sort(int arr[100],int n)
+int sort(int arr[],int n)
 {
     for(int i=0;i<n-1;i++)
     {
@@ -20,7 +20,7 @@ int main()
     scanf("%d",&n);
     for(int i=1;i<=n;i++)
     {
-        scanf("%d ",arr[i]);
+        scanf("%d ",&arr[i]);
     }
     sort(arr[100],n);
     printf("%d %d",arr[0],arr[n-1]);
